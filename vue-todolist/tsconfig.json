@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "node": true,
+    "esModuleInterop": true,
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts"], // 需要编译的文件
+  "exclude": ["node_modules"] // 排除不需要编译的文件
+}
