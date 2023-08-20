@@ -1,6 +1,7 @@
 // @ts-ignore
 import path from 'path';
-import * as HtmlWebpackPlugin from 'html-webpack-plugin';
+// @ts-ignore
+import  HtmlWebpackPlugin from 'html-webpack-plugin';
 import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 import { VueLoaderPlugin } from 'vue-loader';
 import AutoImport from 'unplugin-auto-import/webpack';
